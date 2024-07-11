@@ -1,0 +1,9 @@
+
+
+
+#!/bin/bash
+
+while read HOST; do ssh $HOST "sudo su -; hostname; cat /etc/redhat-release" < /dev/null; done < servers.txt >> output.txt
+
+
+ 
