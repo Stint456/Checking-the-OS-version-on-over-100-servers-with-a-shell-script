@@ -1,0 +1,1 @@
+# Checking-the-OS-version-on-over-100-servers-with-a-shell-script
